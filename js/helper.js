@@ -14,9 +14,11 @@ replace the %data% placeholder text you see in them.
 */
 var formattedName = HTMLheaderName.replace("%data%", "Caitlin Sweeney");
 var role = "Web Developer";
-var formattedRole = HtmlheaderRole.replace("%data%"", role);
+var formattedRole = HtmlheaderRole.replace("%data%", role);
+
 $("header").prepend(formattedName);
 $("header").prepend(formattedRole);
+
 var HTMLheaderName = '<h1 id="name">%data%</h1>';
 var HTMLheaderRole = '<span>%data%</span><hr>';
 
