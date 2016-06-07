@@ -12,7 +12,7 @@ Cameron Pittman
 These are HTML strings. As part of the course, you'll be using JavaScript functions
 replace the %data% placeholder text you see in them.
 */
-var formattedName = HTMLheaderName.replace("%data%", "Caitlin Sweeney");
+var formattedName = HTMLheaderName.replace("%data%", Caitlin Sweeney);
 var role = "Web Developer";
 var formattedRole = HtmlheaderRole.replace("%data%", role);
 
