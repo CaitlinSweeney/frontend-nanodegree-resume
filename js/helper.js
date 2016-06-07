@@ -17,7 +17,7 @@ var HTMLheaderRole = '<span>%data%</span><hr>';
 
 var formattedName = HTMLheaderName.replace("%data%", "Caitlin Sweeney");
 var role = "Web Developer";
-var formattedRole = HtmlheaderRole.replace("%data%", role);
+var formattedRole = HTMLheaderRole.replace("%data%", role);
 
 $("header").append(formattedName);
 $("header").prepend(formattedRole);
