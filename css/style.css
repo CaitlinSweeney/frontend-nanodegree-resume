@@ -28,7 +28,7 @@ h1 {
   font-size: 40px;
   color: #f5a623;
   line-height: 48px;
-  display: inline;
+  display: flex;
 }
 
 h2 {
