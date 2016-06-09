@@ -19,7 +19,7 @@ var formattedName = HTMLheaderName.replace("%data%", "Caitlin Sweeney");
 var role = "Web Developer";
 var formattedRole = HTMLheaderRole.replace("%data%", role);
 
-$("#header").append(formattedName);
+$("#header").prepend(formattedName);
 $("#header").prepend(formattedRole);
 
 var HTMLcontactGeneric = '<li class="flex-item"><span class="orange-text">%contact%</span><span class="white-text">%data%</span></li>';
